@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dv0q2c5etsl6"]
+
+[ext_resource type="PackedScene" uid="uid://bv7rb008ohib4" path="res://components/base-bg.tscn" id="1_ckcgv"]
+
+[node name="level2" type="Node2D"]
+position = Vector2(12, 1)
+
+[node name="Base-bg" parent="." instance=ExtResource("1_ckcgv")]
+position = Vector2(-12, -1)

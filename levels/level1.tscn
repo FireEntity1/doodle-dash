@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://cjqtdsj3p14yx"]
+[gd_scene load_steps=4 format=3 uid="uid://cjqtdsj3p14yx"]
 
 [ext_resource type="PackedScene" uid="uid://bv7rb008ohib4" path="res://components/base-bg.tscn" id="1_no45u"]
 [ext_resource type="PackedScene" uid="uid://b2oxusq21igbr" path="res://components/player.tscn" id="2_sb7ms"]
+[ext_resource type="PackedScene" uid="uid://s2owvlljyh8x" path="res://components/endCoin.tscn" id="3_papm0"]
 
 [node name="level1" type="Node2D"]
 
@@ -10,3 +11,6 @@ position = Vector2(0, 1)
 
 [node name="Player" parent="." instance=ExtResource("2_sb7ms")]
 position = Vector2(118, 559)
+
+[node name="coin" parent="." instance=ExtResource("3_papm0")]
+position = Vector2(1053, 96)
