@@ -1,9 +1,44 @@
-[gd_scene load_steps=2 format=3 uid="uid://dv0q2c5etsl6"]
+[gd_scene load_steps=7 format=3 uid="uid://dv0q2c5etsl6"]
 
 [ext_resource type="PackedScene" uid="uid://bv7rb008ohib4" path="res://components/base-bg.tscn" id="1_ckcgv"]
+[ext_resource type="PackedScene" uid="uid://b2oxusq21igbr" path="res://components/player.tscn" id="2_l885x"]
+[ext_resource type="PackedScene" uid="uid://s2owvlljyh8x" path="res://components/endCoin.tscn" id="3_2t858"]
+[ext_resource type="PackedScene" uid="uid://tlp040a7lsyw" path="res://components/deadzone.tscn" id="4_nq0l8"]
+[ext_resource type="PackedScene" uid="uid://cm2m7t0d5jxmk" path="res://components/ballspawner.tscn" id="5_2mqs5"]
+[ext_resource type="PackedScene" uid="uid://be43774vddut6" path="res://components/deadzoneLong.tscn" id="6_cxf0b"]
 
 [node name="level2" type="Node2D"]
 position = Vector2(12, 1)
 
 [node name="Base-bg" parent="." instance=ExtResource("1_ckcgv")]
 position = Vector2(-12, -1)
+
+[node name="Player" parent="." instance=ExtResource("2_l885x")]
+position = Vector2(69, 584)
+
+[node name="coin" parent="." instance=ExtResource("3_2t858")]
+position = Vector2(62, 76)
+
+[node name="deadZone" parent="." instance=ExtResource("4_nq0l8")]
+position = Vector2(45, 317)
+rotation = 1.5708
+
+[node name="deadZone2" parent="." instance=ExtResource("4_nq0l8")]
+position = Vector2(45, 184)
+rotation = 1.5708
+
+[node name="deadZone3" parent="." instance=ExtResource("4_nq0l8")]
+position = Vector2(45, 465)
+rotation = 1.5708
+
+[node name="ballspawner" parent="." instance=ExtResource("5_2mqs5")]
+position = Vector2(198, 195)
+
+[node name="ballspawner2" parent="." instance=ExtResource("5_2mqs5")]
+position = Vector2(451, 191)
+
+[node name="ballspawner3" parent="." instance=ExtResource("5_2mqs5")]
+position = Vector2(721, 196)
+
+[node name="deadzoneLong" parent="." instance=ExtResource("6_cxf0b")]
+position = Vector2(854, 563)

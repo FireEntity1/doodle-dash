@@ -3,9 +3,12 @@ extends CharacterBody2D
 
 const SPEED = 300
 const JUMP_VELOCITY = -800
+var spawn
 
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
+func _ready():
+	spawn = self.position
 
 func _physics_process(delta):
 	if not is_on_floor():
@@ -33,4 +36,5 @@ func _physics_process(delta):
 
 	move_and_slide()
 
-
+func die():
+	self.position = spawn
