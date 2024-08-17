@@ -1,0 +1,29 @@
+[gd_scene load_steps=6 format=3 uid="uid://4ysau5yrdnbo"]
+
+[ext_resource type="PackedScene" uid="uid://bv7rb008ohib4" path="res://components/base-bg.tscn" id="1_x8uwy"]
+[ext_resource type="PackedScene" uid="uid://b2oxusq21igbr" path="res://components/player.tscn" id="2_4m0bb"]
+[ext_resource type="PackedScene" uid="uid://cm2m7t0d5jxmk" path="res://components/ballspawner.tscn" id="3_vjgho"]
+[ext_resource type="PackedScene" uid="uid://bus8nw4d1db74" path="res://components/deathPlatform.tscn" id="4_xy8vj"]
+[ext_resource type="PackedScene" uid="uid://s2owvlljyh8x" path="res://components/endCoin.tscn" id="5_2nhja"]
+
+[node name="level4" type="Node2D"]
+
+[node name="Base-bg" parent="." instance=ExtResource("1_x8uwy")]
+
+[node name="Player" parent="." instance=ExtResource("2_4m0bb")]
+position = Vector2(573, 592)
+
+[node name="ballspawner" parent="." instance=ExtResource("3_vjgho")]
+position = Vector2(256, -80)
+
+[node name="ballspawner2" parent="." instance=ExtResource("3_vjgho")]
+position = Vector2(846, -74)
+
+[node name="deathPlatform" parent="." instance=ExtResource("4_xy8vj")]
+position = Vector2(562, 452)
+
+[node name="deathPlatform2" parent="." instance=ExtResource("4_xy8vj")]
+position = Vector2(562, 241)
+
+[node name="coin" parent="." instance=ExtResource("5_2nhja")]
+position = Vector2(559, 63)

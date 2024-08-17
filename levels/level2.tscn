@@ -32,13 +32,13 @@ position = Vector2(45, 465)
 rotation = 1.5708
 
 [node name="ballspawner" parent="." instance=ExtResource("5_2mqs5")]
-position = Vector2(198, 195)
+position = Vector2(195, -72)
 
 [node name="ballspawner2" parent="." instance=ExtResource("5_2mqs5")]
-position = Vector2(451, 191)
+position = Vector2(578, -73)
 
 [node name="ballspawner3" parent="." instance=ExtResource("5_2mqs5")]
-position = Vector2(721, 196)
+position = Vector2(1002, -71)
 
 [node name="deadzoneLong" parent="." instance=ExtResource("6_cxf0b")]
 position = Vector2(854, 563)

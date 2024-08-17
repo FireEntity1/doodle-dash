@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://bus8nw4d1db74"]
+
+[ext_resource type="Texture2D" uid="uid://dp17baqnjqb4m" path="res://sprites/deathPlatform.png" id="1_1qy0l"]
+[ext_resource type="Script" path="res://scripts/deadzone.gd" id="1_r7eni"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_df0o6"]
+size = Vector2(120, 110)
+
+[node name="deathPlatform" type="Node2D"]
+script = ExtResource("1_r7eni")
+
+[node name="area" type="Area2D" parent="."]
+
+[node name="sprite" type="Sprite2D" parent="area"]
+position = Vector2(-1, 0)
+scale = Vector2(12.6277, 14.082)
+texture = ExtResource("1_1qy0l")
+
+[node name="col" type="CollisionShape2D" parent="area"]
+scale = Vector2(1.06522, 1.06863)
+shape = SubResource("RectangleShape2D_df0o6")
+
+[connection signal="body_entered" from="area" to="." method="_on_area_body_entered"]
