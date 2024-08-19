@@ -1,0 +1,45 @@
+[gd_scene load_steps=7 format=3 uid="uid://ca2r80s0s5htx"]
+
+[ext_resource type="PackedScene" uid="uid://bv7rb008ohib4" path="res://components/base-bg.tscn" id="1_trrg3"]
+[ext_resource type="PackedScene" uid="uid://b2oxusq21igbr" path="res://components/player.tscn" id="2_s3emv"]
+[ext_resource type="PackedScene" uid="uid://be43774vddut6" path="res://components/deadzoneLong.tscn" id="3_45xum"]
+[ext_resource type="PackedScene" uid="uid://yr3wflpmf24m" path="res://components/platform.tscn" id="4_nanmk"]
+[ext_resource type="PackedScene" uid="uid://bus8nw4d1db74" path="res://components/deathPlatform.tscn" id="5_dqha0"]
+[ext_resource type="PackedScene" uid="uid://s2owvlljyh8x" path="res://components/endCoin.tscn" id="6_o37vp"]
+
+[node name="level8" type="Node2D"]
+
+[node name="Base-bg" parent="." instance=ExtResource("1_trrg3")]
+
+[node name="Player" parent="." instance=ExtResource("2_s3emv")]
+position = Vector2(100, 75)
+
+[node name="deadzoneLong" parent="." instance=ExtResource("3_45xum")]
+position = Vector2(551, 564)
+
+[node name="deadzoneLong2" parent="." instance=ExtResource("3_45xum")]
+position = Vector2(866, 564)
+
+[node name="deadzoneLong3" parent="." instance=ExtResource("3_45xum")]
+position = Vector2(285, 564)
+
+[node name="Platform" parent="." instance=ExtResource("4_nanmk")]
+position = Vector2(96, 164)
+
+[node name="deathPlatform" parent="." instance=ExtResource("5_dqha0")]
+position = Vector2(299, 244)
+
+[node name="deathPlatform2" parent="." instance=ExtResource("5_dqha0")]
+position = Vector2(583, 242)
+
+[node name="deathPlatform3" parent="." instance=ExtResource("5_dqha0")]
+position = Vector2(920, 240)
+
+[node name="deathPlatform4" parent="." instance=ExtResource("5_dqha0")]
+position = Vector2(426, 515)
+
+[node name="deathPlatform5" parent="." instance=ExtResource("5_dqha0")]
+position = Vector2(748, 522)
+
+[node name="coin" parent="." instance=ExtResource("6_o37vp")]
+position = Vector2(1036, 530)
