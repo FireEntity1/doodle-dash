@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2f4ks7sg6byg"
-path="res://.godot/imported/deathBall.png-3001728261ec5f55a7dd690062519ecf.ctex"
+uid="uid://b8bqlcyasb8a7"
+path="res://.godot/imported/platform.png-2814e55efba316ed5bf039a99ddbc9b5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/deathBall.png"
-dest_files=["res://.godot/imported/deathBall.png-3001728261ec5f55a7dd690062519ecf.ctex"]
+source_file="res://assets/platform.png"
+dest_files=["res://.godot/imported/platform.png-2814e55efba316ed5bf039a99ddbc9b5.ctex"]
 
 [params]
 

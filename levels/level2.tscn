@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://dv0q2c5etsl6"]
+[gd_scene load_steps=8 format=3 uid="uid://dv0q2c5etsl6"]
 
 [ext_resource type="PackedScene" uid="uid://bv7rb008ohib4" path="res://components/base-bg.tscn" id="1_ckcgv"]
 [ext_resource type="PackedScene" uid="uid://b2oxusq21igbr" path="res://components/player.tscn" id="2_l885x"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://tlp040a7lsyw" path="res://components/deadzone.tscn" id="4_nq0l8"]
 [ext_resource type="PackedScene" uid="uid://cm2m7t0d5jxmk" path="res://components/ballspawner.tscn" id="5_2mqs5"]
 [ext_resource type="PackedScene" uid="uid://be43774vddut6" path="res://components/deadzoneLong.tscn" id="6_cxf0b"]
+[ext_resource type="Theme" uid="uid://bsw0gdvs7hfw" path="res://assets/theme.tres" id="7_qcw2f"]
 
 [node name="level2" type="Node2D"]
 position = Vector2(12, 1)
@@ -42,3 +43,13 @@ position = Vector2(1002, -71)
 
 [node name="deadzoneLong" parent="." instance=ExtResource("6_cxf0b")]
 position = Vector2(854, 563)
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 336.0
+offset_top = 51.0
+offset_right = 1072.0
+offset_bottom = 84.0
+theme = ExtResource("7_qcw2f")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+text = "Press s, down, or ctrl to ground slam"

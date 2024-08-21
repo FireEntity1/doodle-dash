@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3eqroamqd70y"
-path="res://.godot/imported/endCoin.png-e7ad55f9f9167cb4e0bd6df839f93563.ctex"
+path="res://.godot/imported/endCoin.png-dcafe1aaa0c6705b24bcdd296522f558.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/endCoin.png"
-dest_files=["res://.godot/imported/endCoin.png-e7ad55f9f9167cb4e0bd6df839f93563.ctex"]
+source_file="res://assets/endCoin.png"
+dest_files=["res://.godot/imported/endCoin.png-dcafe1aaa0c6705b24bcdd296522f558.ctex"]
 
 [params]
 

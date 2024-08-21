@@ -13,5 +13,8 @@ func _process(delta):
 
 func _on_area_body_entered(body):
 	if body is CharacterBody2D:
-		get_tree().change_scene_to_file("res://levels/level"+ str(level+1) + ".tscn")
+		if level == 13:
+			get_tree().change_scene_to_file("res://levels/end.tscn")
+		else:
+			get_tree().change_scene_to_file("res://levels/level"+ str(level+1) + ".tscn")
 

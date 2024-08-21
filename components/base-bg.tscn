@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bv7rb008ohib4"]
 
 [ext_resource type="Script" path="res://scripts/spawn.gd" id="1_jedbq"]
-[ext_resource type="Texture2D" uid="uid://dcn67n4jxn10k" path="res://sprites/bg.png" id="1_jhxkn"]
+[ext_resource type="Texture2D" uid="uid://dcn67n4jxn10k" path="res://assets/bg.png" id="1_jhxkn"]
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_5ftxb"]
 b = Vector2(0, 720)

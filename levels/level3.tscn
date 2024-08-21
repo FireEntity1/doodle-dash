@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://bx5nrcmh3ej3l"]
+[gd_scene load_steps=8 format=3 uid="uid://bx5nrcmh3ej3l"]
 
 [ext_resource type="PackedScene" uid="uid://bv7rb008ohib4" path="res://components/base-bg.tscn" id="1_itvpk"]
 [ext_resource type="PackedScene" uid="uid://b2oxusq21igbr" path="res://components/player.tscn" id="2_1tbx6"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://cm2m7t0d5jxmk" path="res://components/ballspawner.tscn" id="4_af0r6"]
 [ext_resource type="PackedScene" uid="uid://be43774vddut6" path="res://components/deadzoneLong.tscn" id="5_5w11l"]
 [ext_resource type="PackedScene" uid="uid://s2owvlljyh8x" path="res://components/endCoin.tscn" id="6_13xtc"]
+[ext_resource type="Theme" uid="uid://bsw0gdvs7hfw" path="res://assets/theme.tres" id="7_bmm38"]
 
 [node name="level3" type="Node2D"]
 
@@ -37,3 +38,13 @@ position = Vector2(855, 566)
 
 [node name="coin" parent="." instance=ExtResource("6_13xtc")]
 position = Vector2(66, 539)
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 53.0
+offset_top = 58.0
+offset_right = 527.0
+offset_bottom = 91.0
+theme = ExtResource("7_bmm38")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 25
+text = "Enjoy!"

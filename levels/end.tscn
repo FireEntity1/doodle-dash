@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfjcn3gas5mjt"]
+
+[ext_resource type="Theme" uid="uid://bsw0gdvs7hfw" path="res://assets/theme.tres" id="1_etme7"]
+
+[node name="end" type="Node2D"]
+
+[node name="bg" type="ColorRect" parent="."]
+offset_right = 1155.0
+offset_bottom = 649.0
+
+[node name="title" type="Label" parent="."]
+offset_left = 112.0
+offset_top = 195.0
+offset_right = 1052.0
+offset_bottom = 454.0
+theme = ExtResource("1_etme7")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Thank you
+for playing!"
+horizontal_alignment = 1

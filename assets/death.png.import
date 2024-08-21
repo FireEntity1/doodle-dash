@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dp17baqnjqb4m"
-path="res://.godot/imported/deathPlatform.png-b7ca192fbc77aa7aead5d2ba744ff346.ctex"
+uid="uid://b5psdmjel871o"
+path="res://.godot/imported/death.png-198d3fb31567bbaa959322f68730ee59.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/deathPlatform.png"
-dest_files=["res://.godot/imported/deathPlatform.png-b7ca192fbc77aa7aead5d2ba744ff346.ctex"]
+source_file="res://assets/death.png"
+dest_files=["res://.godot/imported/death.png-198d3fb31567bbaa959322f68730ee59.ctex"]
 
 [params]
 

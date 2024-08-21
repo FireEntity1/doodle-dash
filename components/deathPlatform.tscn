@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bus8nw4d1db74"]
 
-[ext_resource type="Texture2D" uid="uid://dp17baqnjqb4m" path="res://sprites/deathPlatform.png" id="1_1qy0l"]
+[ext_resource type="Texture2D" uid="uid://dp17baqnjqb4m" path="res://assets/deathPlatform.png" id="1_1qy0l"]
 [ext_resource type="Script" path="res://scripts/deadzone.gd" id="1_r7eni"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_df0o6"]

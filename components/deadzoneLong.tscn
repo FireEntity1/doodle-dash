@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://be43774vddut6"]
 
 [ext_resource type="Script" path="res://scripts/deadzone.gd" id="1_8td5g"]
-[ext_resource type="Texture2D" uid="uid://dj61lwbktylr0" path="res://sprites/deathLong.png" id="1_si1sl"]
+[ext_resource type="Texture2D" uid="uid://dj61lwbktylr0" path="res://assets/deathLong.png" id="1_si1sl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cl4pu"]
 size = Vector2(176.723, 11.1974)
